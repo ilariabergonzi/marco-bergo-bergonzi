@@ -1052,11 +1052,11 @@ a {
 }
 
 .project-note {
-  width: min(1120px, 100%);
+  width: min(1180px, 100%);
   margin: 0 auto;
   text-align: center;
-  font-size: clamp(18px, 1.35vw, 23px);
-  line-height: 1.55;
+  font-size: clamp(20px, 1.5vw, 27px);
+  line-height: 1.5;
 }
 
 .contact-section {
