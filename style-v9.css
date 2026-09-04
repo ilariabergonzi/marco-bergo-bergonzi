@@ -317,12 +317,14 @@ a {
     gap: 42px;
     margin-bottom: 110px;
   }
-  
-  .music-split .music-image-wrap {
+
+  .music-split .music-image-wrap,
+  .music-split.reverse .music-image-wrap {
     order: 1;
   }
 
-  .music-split .music-copy {
+  .music-split .music-copy,
+  .music-split.reverse .music-copy {
     order: 2;
   }
   .music-copy,
