@@ -776,11 +776,11 @@ a {
 }
 
 .production-kicker {
-  margin: 0;
+  margin: 0 0 18px;
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 700;
   font-size: clamp(92px, 11vw, 180px);
-  line-height: 0.8;
+  line-height: 0.9;
   letter-spacing: -7px;
 }
 
