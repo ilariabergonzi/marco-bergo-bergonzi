@@ -317,7 +317,14 @@ a {
     gap: 42px;
     margin-bottom: 110px;
   }
+  
+  .music-split .music-image-wrap {
+    order: 1;
+  }
 
+  .music-split .music-copy {
+    order: 2;
+  }
   .music-copy,
   .music-copy-right {
     padding: 0;
