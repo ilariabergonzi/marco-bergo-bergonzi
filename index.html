@@ -3,14 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sito ufficiale di Marco Bergo Bergonzi. Musica, immagini, parole e progetto CAOS.">
   <title>Marco Bergo Bergonzi</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body style="background:#000; color:#fff; font-family:Arial; text-align:center; padding-top:100px;">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Marco Bergo Bergonzi - Home">
+      <span>Marco Bergo</span>
+      <span>Bergonzi</span>
+    </a>
 
-  <h1>MARCO BERGO BERGONZI</h1>
+    <nav class="main-nav" aria-label="Navigazione principale">
+      <a class="active" href="index.html">Home</a>
+      <a href="musica.html">Musica</a>
+      <a href="parole.html">Parole</a>
+      <a href="progetto.html">Progetto</a>
+    </nav>
+  </header>
 
-  <p>Il caos non si spiega. Si attraversa.</p>
+  <main>
+    <section class="hero" aria-label="Video introduttivo">
+      <video class="hero-video" autoplay muted loop playsinline preload="auto">
+        <source src="video-sito.mp4" type="video/mp4">
+        Il tuo browser non supporta la riproduzione video.
+      </video>
+    </section>
+
+    <section class="intro">
+      <div class="intro-inner">
+        <h1>Tra musica, immagini e<br>
+          parole, questo è il mondo di<br>
+          Marco Bergo Bergonzi.
+        </h1>
+
+        <p class="contact">
+          Marco Bergonzi - <a href="mailto:entropia1966@gmail.com">entropia1966@gmail.com</a>
+        </p>
+
+        <div class="cta-group">
+          <a class="cta" href="musica.html">Musica</a>
+          <a class="cta" href="parole.html">Parole</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Sito creato da Ilaria Bergonzi</p>
+    <p>© 2026 Marco Bergo Bergonzi</p>
+  </footer>
 
 </body>
 </html>
