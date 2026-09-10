@@ -1244,7 +1244,6 @@ a {
   margin: 0 auto;
   font-size: clamp(19px, 1.45vw, 25px);
   line-height: 1.58;
-  text-transform: uppercase;
 }
 
 .words-intro-text p {
