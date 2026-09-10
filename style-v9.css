@@ -1248,7 +1248,7 @@ a {
 
 .words-intro-text p {
   margin: 0 0 18px;
-  text-transform: none;
+  text-transform: none !important;
 }
 
 .stories-section {
