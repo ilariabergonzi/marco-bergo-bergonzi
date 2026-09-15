@@ -1395,6 +1395,20 @@ a {
   margin: 0 0 30px;
 }
 
+.story-dedication {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.78em;
+  line-height: 1.6;
+  margin: 35px auto;
+  width: 100%;
+}
+
+.story-dedication p {
+  margin: 0;
+  text-align: center;
+}
+
 .story-back {
   display: inline-block;
   margin-top: 34px;
