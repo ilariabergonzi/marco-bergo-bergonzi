@@ -1495,6 +1495,13 @@ a {
   outline-offset: 3px;
 }
 
+.song-meta .streaming-platforms .streaming-title {
+    display: block;
+    width: 100%;
+    margin: 0 auto 14px;
+    text-align: center !important;
+}
+
 /* Mantiene a destra il componente nelle sezioni con allineamento invertito. */
 .stacked-buttons.align-right .streaming-platforms {
   text-align: right;
