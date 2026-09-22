@@ -1495,11 +1495,22 @@ a {
   outline-offset: 3px;
 }
 
-.song-meta .streaming-platforms .streaming-title {
-    display: block;
-    width: 100%;
-    margin: 0 auto 14px;
-    text-align: center !important;
+/* Centra titolo e icone sotto le singole canzoni. */
+.song-meta .streaming-platforms {
+  width: 100%;
+  text-align: center !important;
+}
+
+.song-meta .streaming-title {
+  display: block;
+  width: 100%;
+  margin: 0 auto 14px;
+  text-align: center !important;
+}
+
+.song-meta .streaming-icons {
+  width: 100%;
+  justify-content: center !important;
 }
 
 /* Mantiene a destra il componente nelle sezioni con allineamento invertito. */
@@ -1567,5 +1578,28 @@ a {
   .streaming-title {
     font-size: 12px;
     letter-spacing: 0.18em;
+  }
+
+  /* Solo nell'intestazione di EP1: tutte le icone su una riga. */
+  .ep1-hero .streaming-icons {
+    justify-content: center !important;
+    flex-wrap: nowrap !important;
+    gap: 6px;
+  }
+
+  .ep1-hero .streaming-icons a {
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    padding: 7px;
+    border-radius: 9px;
+  }
+
+  .ep1-hero .streaming-title {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    white-space: nowrap;
   }
 }
