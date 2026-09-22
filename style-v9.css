@@ -1495,18 +1495,6 @@ a {
   outline-offset: 3px;
 }
 
-/* Icone streaming sotto le singole canzoni */
-
-.song-meta .streaming-platforms {
-    margin-top: 36px;
-    margin-bottom: 65px;
-    text-align: center;
-}
-
-.song-meta .streaming-icons {
-    justify-content: center;
-}
-
 /* Mantiene a destra il componente nelle sezioni con allineamento invertito. */
 .stacked-buttons.align-right .streaming-platforms {
   text-align: right;
